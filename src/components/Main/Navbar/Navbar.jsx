@@ -1,10 +1,11 @@
 import React from 'react';
+import a from "./Navbar.module.css";
 
-const Nav = () => {
+const Navbar = () => {
     return (
-        <div>
+        <div className={a.navbar}>
             <div>
-            <a>Александр Казаков</a>
+            <a>Статьи</a>
             </div>
             <div>
                 <a>Javascript</a>
@@ -25,4 +26,4 @@ const Nav = () => {
     );
 }
 
-export default Nav;
+export default Navbar;

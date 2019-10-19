@@ -6,17 +6,4 @@
           "f";
   grid-template-rows: 60px 1fr 60px;
   grid-template-colums: 1fr;
-;
-}
-
-.nav {
-  grid-area: n;
-}
-
-.main {
-  grid-area: m;
-}
-
-.footer {
-  grid-area: f;
 }
