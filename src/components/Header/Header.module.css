@@ -1,0 +1,7 @@
+.header {
+    grid-area: header_grid;
+
+    background: url("../../images/maxresdefault.jpg") center bottom;
+    background-size: cover;
+    height: 100%;
+}

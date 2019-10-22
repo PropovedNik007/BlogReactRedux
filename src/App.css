@@ -1,9 +1,9 @@
 .app-wrapper {
   display: grid;
   grid-template-areas:
-          "n"
-          "m"
-          "f";
-  grid-template-rows: 60px 1fr 60px;
+          "header_grid"
+          "section_grid"
+          "footer_grid";
+  grid-template-rows: 600px 1fr 100px;
   grid-template-colums: 1fr;
 }

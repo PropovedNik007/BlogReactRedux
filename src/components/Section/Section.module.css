@@ -1,0 +1,7 @@
+.section {
+    grid-area: section_grid;
+
+    background: tan;
+    background-size: cover;
+    height: 100%;
+}
