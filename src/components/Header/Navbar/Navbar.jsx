@@ -4,11 +4,34 @@ import "react-bootstrap";
 
 const Navbar = () => {
     return (
-        <div className={css.navbar}>
-            <nav className="navbar navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-dark">
+            <a className="navbar-brand" href="#">Санечек</a>
+            <button className="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+            </button>
 
-            </nav>
-        </div>
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul className="navbar-nav mr-auto">
+                    <li className="nav-item active">
+                        <a className="nav-link" href="#">Главная <span className="sr-only">(current)</span></a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#">Git</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#">ВК</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#">HuckerRank профиль</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link disabled" href="#">Курсы</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     );
 };
 
